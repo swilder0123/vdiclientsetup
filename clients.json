@@ -1,0 +1,14 @@
+{
+    "Location": "WestUs2",
+    "ResourceGroup":  "win10deploy-rg",
+    "KeyVaultName": "win10deploy-kv",
+    "AdminAccountName": "Win10Admin",
+    "DeploymentImage": "win10deploy-vm-image",
+    "VMSize":"Standard_DS2_v2",
+    "DeploymentName": "win10skw",
+    "MachineSuffixes":  ["01","02","03"],
+    "DeploymentImage":"win10deploy-vm-image",
+    "VirtualNetwork":  "win10deploy-vnet",
+    "Subnet":  "default",
+    "NetworkSecurityGroup": "win10deploy-nsg"
+}
